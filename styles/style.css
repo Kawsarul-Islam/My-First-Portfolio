@@ -171,7 +171,7 @@ main {
 
 /* resume */
 
-.resume-title{
+.resume-title {
     margin-top: 130px;
     text-align: center;
     font-size: 35px;
@@ -179,33 +179,72 @@ main {
     margin-bottom: 80px;
 }
 
-.resume-item{
+.resume-item {
     margin-top: 30px;
     margin-bottom: 30px;
 }
 
-.resume-content{
+.resume-content {
     display: flex;
     gap: 25px;
 }
 
-.resume .title{
+.resume .title {
     font-size: 25px;
     font-weight: 700;
     color: #474747;
     margin-bottom: 10px;
 }
-.resume .sub-title{
+
+.resume .sub-title {
     color: #757575;
     font-weight: 600;
     font-size: 20px;
     margin-bottom: 20px;
 }
-.resume .discription{
+
+.resume .discription {
     color: #757575;
 }
 
-.resume-btn{
+.resume-btn {
     margin-top: 50px;
     text-align: center;
+}
+
+/* contact style */
+.contact {
+    display: flex;
+    margin-top: 100px;
+    gap: 120px;
+    background-color: #FFF8F3;
+    padding: 130px 200px;
+    
+
+}
+
+.contact .section-title {
+    text-align: left;
+
+}
+
+.contact input[type="text"], input[type="email"], textarea{
+    margin-bottom: 25px;
+    border: 0;
+    width: 100%;
+    padding: 18px 30px;
+}
+
+input{
+    height: 65px;
+
+}
+
+.contact-discription{
+    margin: 30px 0;
+}
+
+.contact a{
+    text-decoration: none;
+    margin: 0 5px;
 }
