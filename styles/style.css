@@ -24,11 +24,19 @@
     font-weight: 700;
     border: 0;
     padding: 18px 36PX;
-
-
-
 }
 
+.contact-btn{
+    color: #FD6E0A;
+    height: 64px;
+    border-radius: 5px;
+    background: #FFF8F3;
+    font-size: 65;
+    font-weight: 700;
+    border: 1px solid #FD6E0A;
+    padding: 18px 36PX;
+    margin-left: 20px;
+}
 nav {
     display: flex;
     justify-content: space-between;
